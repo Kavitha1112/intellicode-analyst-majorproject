@@ -56,7 +56,7 @@ function App() {
     setDecorations([]);
 
     try {
-      const response = await fetch('/api/analyze', {
+      const response = await fetch('https://kane-objectionable-unbewilderedly.ngrok-free.dev/api/analyze', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
