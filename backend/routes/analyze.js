@@ -3,7 +3,7 @@ import { validateAnalyzeRequest } from '../utils/validateInput.js';
 import { detectLanguageFromCode } from '../utils/detectLanguage.js';
 import { buildAnalysisPrompt } from '../utils/buildPrompt.js';
 import { callAI } from '../utils/aiClient.js';
-import { safeJsonParse } from '../utils/safejsonParse.js';
+import { safeJsonParse } from '../utils/safeJsonParse.js';
 import { normalizeAnalysis } from '../utils/normalizeAnalysis.js';
 
 const router = express.Router();
